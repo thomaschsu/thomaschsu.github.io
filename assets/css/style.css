@@ -19,7 +19,7 @@ body {
 }
 
 #navbar {
-    text-transform: uppercase;
+    text-transform: lowercase;
     font-size: 1.25rem;
 }
 
