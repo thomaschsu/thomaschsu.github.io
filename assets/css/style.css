@@ -10,6 +10,7 @@ body {
 
 #navbar .nav-link {
     color: #FFF;
+    font-weight: 300;
 }
 
 #navbar .nav-link:hover {
@@ -20,4 +21,9 @@ body {
 #navbar {
     text-transform: uppercase;
     font-size: 1.25rem;
+}
+
+.navbar.scroll {
+    background-color: #90CAF9;
+    transition: background 550ms;
 }
