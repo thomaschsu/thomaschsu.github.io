@@ -14,7 +14,7 @@ body {
 }
 
 #navbar .nav-link:hover {
-    color: #27aaf9;
+    color: #0f9df3f0;
     transition-delay: 0.1s
 }
 
@@ -26,4 +26,8 @@ body {
 .navbar.scroll {
     background-color: #90CAF9;
     transition: background 550ms;
+}
+
+.text-shadow {
+    text-shadow: 1px 1px rgba(0,0,0,0.75);
 }
