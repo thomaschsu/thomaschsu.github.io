@@ -4,23 +4,23 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-#navbar .navbar-brand {
-    color: #27aaf9;
-}
-
-#navbar .nav-link {
-    color: #FFF;
-    font-weight: 300;
-}
-
-#navbar .nav-link:hover {
-    color: #0f9df3f0;
-    transition-delay: 0.1s
-}
-
 #navbar {
     text-transform: lowercase;
     font-size: 1.25rem;
+
+    .navbar-brand {
+        color: #27aaf9;
+    }
+
+    .nav-link {
+        color: #FFF;
+        font-weight: 300;
+
+        &:hover {
+            color: #0f9df3f0;
+            transition-delay: 0.1s
+        }
+    }
 }
 
 .navbar.scroll {
