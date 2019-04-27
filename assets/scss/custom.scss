@@ -5,7 +5,6 @@ body {
 }
 
 #navbar {
-    text-transform: lowercase;
     font-size: 1.25rem;
 
     .navbar-brand {
@@ -18,7 +17,7 @@ body {
 
         &:hover {
             color: #0f9df3f0;
-            transition-delay: 0.1s
+            transition-delay: 0.075s
         }
     }
 }

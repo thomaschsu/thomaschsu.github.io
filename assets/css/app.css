@@ -7596,7 +7596,6 @@ body {
   font-family: 'Roboto', sans-serif; }
 
 #navbar {
-  text-transform: lowercase;
   font-size: 1.25rem; }
   #navbar .navbar-brand {
     color: #27aaf9; }
@@ -7605,7 +7604,7 @@ body {
     font-weight: 300; }
     #navbar .nav-link:hover {
       color: #0f9df3f0;
-      transition-delay: 0.1s; }
+      transition-delay: 0.075s; }
 
 .navbar.scroll {
   background-color: #90CAF9;
