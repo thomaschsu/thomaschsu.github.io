@@ -46,6 +46,12 @@ body {
     width: 250px;
 }
 
+#icon-section {
+    .icon {
+        font-size: 50px;
+    }
+}
+
 @media(max-width: 768px) {
     .navbar {
         background: #90CAF9;
