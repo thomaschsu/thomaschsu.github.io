@@ -24,7 +24,8 @@ body {
 }
 
 #showcase {
-    background: url("../images/taiwan.jpg");
+    background: url("../images/taiwan.jpg") center center / cover no-repeat;
+    min-height: 750px;
 }
 
 /* Profile CSS */
