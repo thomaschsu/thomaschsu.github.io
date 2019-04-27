@@ -7603,7 +7603,8 @@ body {
   left: 0;
   z-index: 3; }
   #navbar .nav-link {
-    font-weight: 300; }
+    font-weight: 300;
+    color: #FFF; }
     #navbar .nav-link:hover {
       color: #27aaf9;
       transition-delay: 0.075s; }
