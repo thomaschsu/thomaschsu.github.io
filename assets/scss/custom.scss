@@ -12,13 +12,18 @@ body {
     }
 
     .nav-link {
-        color: #FFF;
         font-weight: 300;
-
+        
         &:hover {
             color: #0f9df3f0;
             transition-delay: 0.075s
         }
+    }
+}
+
+@media(max-width: 768px) {
+    .navbar {
+        background: #90CAF9;
     }
 }
 

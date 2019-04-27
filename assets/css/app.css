@@ -7600,12 +7600,14 @@ body {
   #navbar .navbar-brand {
     color: #27aaf9; }
   #navbar .nav-link {
-    color: #FFF;
     font-weight: 300; }
     #navbar .nav-link:hover {
       color: #0f9df3f0;
       transition-delay: 0.075s; }
 
+@media (max-width: 768px) {
+  .navbar {
+    background: #90CAF9; } }
 .navbar.scroll {
   background-color: #90CAF9;
   transition: background 550ms; }
