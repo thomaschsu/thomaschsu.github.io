@@ -7,15 +7,11 @@ body {
 #navbar {
     font-size: 1.25rem;
 
-    .navbar-brand {
-        color: #27aaf9;
-    }
-
     .nav-link {
         font-weight: 300;
 
         &:hover {
-            color: #0f9df3f0;
+            color: #27aaf9;
             transition-delay: 0.075s
         }
     }
@@ -27,6 +23,15 @@ body {
     }
 }
 
+#showcase {
+    background: url("../images/taiwan.jpg");
+}
+
+/* Profile CSS */
+#me {
+    border-radius: 50%;
+}
+
 .navbar.scroll {
     background-color: #90CAF9;
     transition: background 550ms;
@@ -34,13 +39,4 @@ body {
 
 .text-shadow {
     text-shadow: 1px 1px rgba(0, 0, 0, 0.25);
-}
-
-#image-banner {
-    position: relative;
-}
-
-/* Profile CSS */
-#me {
-    border-radius: 50%;
 }
