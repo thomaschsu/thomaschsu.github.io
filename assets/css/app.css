@@ -7597,10 +7597,6 @@ body {
 
 #navbar {
   font-size: 1.25rem;
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
   z-index: 3; }
   #navbar .nav-link {
     font-weight: 300;
