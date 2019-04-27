@@ -7620,9 +7620,6 @@ body {
 
 /* Profile CSS */
 #me {
-  position: absolute;
-  margin-top: 50%;
-  margin-left: 50%;
-  transform: translate(-50%, -50%); }
+  border-radius: 50%; }
 
 /*# sourceMappingURL=app.css.map */
