@@ -7596,24 +7596,50 @@ body {
   font-family: 'Roboto', sans-serif; }
 
 #navbar {
-  font-size: 1.25rem; }
+  font-size: 1.25rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 3; }
   #navbar .nav-link {
     font-weight: 300; }
     #navbar .nav-link:hover {
       color: #27aaf9;
       transition-delay: 0.075s; }
 
-@media (max-width: 768px) {
-  .navbar {
-    background: #90CAF9; } }
 #showcase {
   background: url("../images/taiwan.jpg") center center/cover no-repeat;
-  min-height: 750px; }
+  min-height: 750px;
+  position: relative; }
+  #showcase #header {
+    z-index: 2; }
+  #showcase #overlay {
+    background: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; }
 
 /* Profile CSS */
 #me {
-  border-radius: 50%; }
+  border-radius: 50%;
+  width: 250px; }
 
+@media (max-width: 768px) {
+  .navbar {
+    background: #90CAF9; }
+
+  #showcase {
+    min-height: 400px; }
+
+  #me {
+    width: 150px; }
+
+  #showcase-title {
+    font-size: 2.5rem; } }
 .navbar.scroll {
   background-color: #90CAF9;
   transition: background 550ms; }
