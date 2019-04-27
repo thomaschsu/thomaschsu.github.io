@@ -7608,6 +7608,9 @@ body {
     #navbar .nav-link:hover {
       color: #27aaf9;
       transition-delay: 0.075s; }
+  #navbar .navbar-toggler {
+    border: none;
+    outline: none; }
 
 #showcase {
   background: url("../images/taiwan.jpg") center center/cover no-repeat;
@@ -7634,7 +7637,7 @@ body {
 
 @media (max-width: 768px) {
   .navbar {
-    background: #90CAF9; }
+    background: #2c3e50; }
 
   #showcase {
     min-height: 400px; }

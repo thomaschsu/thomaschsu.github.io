@@ -11,13 +11,19 @@ body {
     right: 0;
     left: 0;
     z-index: 3;
+
     .nav-link {
         font-weight: 300;
         color: #FFF;
+
         &:hover {
             color: #27aaf9;
             transition-delay: 0.075s
         }
+    }
+    .navbar-toggler {
+        border: none;
+        outline: none;
     }
 }
 
@@ -26,11 +32,13 @@ body {
     background: url("../images/taiwan.jpg") center center / cover no-repeat;
     min-height: 750px;
     position: relative;
+
     #header {
         z-index: 2;
     }
-    #overlay{
-        background: rgba(0,0,0,0.2);
+
+    #overlay {
+        background: rgba(0, 0, 0, 0.2);
         position: absolute;
         top: 0;
         left: 0;
@@ -54,18 +62,22 @@ body {
 
 @media(max-width: 768px) {
     .navbar {
-        background: #90CAF9;
+        background: #2c3e50;
     }
+
     #showcase {
         min-height: 400px;
     }
+
     #me {
         width: 150px;
     }
+
     #showcase-title {
         font-size: 2.5rem;
     }
 }
+
 .navbar.scroll {
     background-color: #90CAF9;
     transition: background 550ms;
