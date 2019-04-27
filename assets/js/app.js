@@ -5,3 +5,7 @@ $(function() {
         $nav.toggleClass('scroll', $(this).scrollTop() > $nav.height());
     });
 });
+
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
