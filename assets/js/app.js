@@ -6,6 +6,7 @@ $(function() {
     });
 });
 
+// Tooltip function
 $(function () {
     $('[data-toggle="tooltip"]').tooltip()
 })
