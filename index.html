@@ -182,23 +182,23 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form>
+                    <form action="https://getsimpleform.com/messages?form_api_token=ae06f54ebd564829ee11a8047bbbf905" method="post">
                         <div class="form-group">
                             <label for="name" class="col-form-label">Name</label>
-                            <input type="text" class="form-control" id="name" placeholder="Full Name">
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Full Name">
                         </div>
                         <div class="form-group">
                             <label for="email" class="col-form-label">Email</label>
-                            <input type="email" class="form-control" id="email" placeholder="Email Address">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Email Address">
                         </div>
                         <hr>
                         <div class="form-group">
-                            <textarea class="form-control" id="message-text" placeholder="What's on your mind?"></textarea>
+                            <textarea class="form-control" id="textarea1" name="textarea1" placeholder="What's on your mind?"></textarea>
                         </div>
                     </form>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-primary btn-block"><i class="fas fa-paper-plane"></i></button>
+                    <button type="submit" name="submit" class="btn btn-primary btn-block"><i class="fas fa-paper-plane"></i></button>
                 </div>
             </div>
         </div>
