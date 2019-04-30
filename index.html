@@ -135,14 +135,22 @@
         <div class="container text-white">
             <form method="POST" action="https://formspree.io/thomaschsu@gmail.com">
                 <div class="form-group">
-                    <label for="contactName">Name</label>
-                    <input type="text" name="name" class="form-control" id="contactName" aria-describedby="nameContact"
-                        placeholder="Full Name" required>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text"><i class="far fa-smile text-warning"></i></div>
+                        </div>
+                        <input type="text" name="name" class="form-control" id="contactName"
+                            aria-describedby="nameContact" placeholder="Full Name" required>
+                    </div>
                 </div>
                 <div class="form-group">
-                    <label for="contactEmail">Email address</label>
-                    <input type="email" name="email" class="form-control" id="contactEmail"
-                        aria-describedby="emailContact" placeholder="Email Address" required>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text"><i class="far fa-envelope text-info"></i></div>
+                        </div>
+                        <input type="email" name="email" class="form-control" id="contactEmail"
+                            aria-describedby="emailContact" placeholder="Email Address" required>
+                    </div>
                 </div>
                 <hr>
                 <div class="mb-3">
@@ -190,7 +198,7 @@
                                     <div class="input-group-text"><i class="far fa-smile text-warning"></i></div>
                                 </div>
                                 <input type="text" class="form-control" id="name" name="name"
-                                    placeholder="Enter your full name here">
+                                    placeholder="Full Name">
                             </div>
                         </div>
                         <div class="form-group">
@@ -199,7 +207,7 @@
                                     <div class="input-group-text"><i class="far fa-envelope text-info"></i></div>
                                 </div>
                                 <input type="email" class="form-control" id="email" name="email"
-                                    placeholder="Enter your email address here">
+                                    placeholder="Email Address">
                             </div>
                         </div>
                         <hr>
