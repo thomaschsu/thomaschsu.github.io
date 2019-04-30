@@ -43,7 +43,8 @@
                         title="Currently on home">home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link" data-toggle="modal" data-target="#contactModal" data-whatever="@getbootstrap">contact</a>
+                    <a href="#" class="nav-link" data-toggle="modal" data-target="#contactModal"
+                        data-whatever="@getbootstrap">contact</a>
                 </li>
                 <li class="nav-item">
                     <a href="portfolio.html" class="nav-link">portfolio</a>
@@ -140,13 +141,13 @@
                 </div>
                 <div class="form-group">
                     <label for="contactEmail">Email address</label>
-                    <input type="email" name="email" class="form-control" id="contactEmail" aria-describedby="emailContact"
-                        placeholder="Email Address" required>
+                    <input type="email" name="email" class="form-control" id="contactEmail"
+                        aria-describedby="emailContact" placeholder="Email Address" required>
                 </div>
                 <hr>
                 <div class="mb-3">
-                    <textarea class="form-control" name="contactTextArea" id="contactTextArea" placeholder="What's on your mind?"
-                        required></textarea>
+                    <textarea class="form-control" name="contactTextArea" id="contactTextArea"
+                        placeholder="What's on your mind?" required></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary"><i class="fas fa-paper-plane"></i></button>
             </form>
@@ -176,7 +177,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="contactModalLabel">Send Me A Message</h5>
+                    <h5 class="modal-title" id="contactModalLabel">Send a Message</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true"><i class="far fa-times-circle"></i></span>
                     </button>
@@ -184,18 +185,30 @@
                 <div class="modal-body">
                     <form action="https://formspree.io/thomaschsu@gmail.com" method="POST">
                         <div class="form-group">
-                            <label for="name" class="col-form-label">Name</label>
-                            <input type="text" class="form-control" id="name" name="name" placeholder="Full Name">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text"><i class="far fa-smile"></i></div>
+                                </div>
+                                <input type="text" class="form-control" id="name" name="name"
+                                    placeholder="Enter your full name here">
+                            </div>
                         </div>
                         <div class="form-group">
-                            <label for="email" class="col-form-label">Email</label>
-                            <input type="email" class="form-control" id="email" name="email" placeholder="Email Address">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text"><i class="far fa-envelope"></i></div>
+                                </div>
+                                <input type="email" class="form-control" id="email" name="email"
+                                    placeholder="Enter your email address here">
+                            </div>
                         </div>
                         <hr>
                         <div class="form-group">
-                            <textarea class="form-control" id="textarea" name="textarea" placeholder="What's on your mind?"></textarea>
+                            <textarea class="form-control" id="textarea" name="textarea"
+                                placeholder="What's on your mind?"></textarea>
                         </div>
-                        <button type="submit" value="Send" name="submit" class="btn btn-primary btn-block"><i class="fas fa-paper-plane"></i></button>
+                        <button type="submit" value="Send" name="submit" class="btn btn-primary btn-block"><i
+                                class="fas fa-paper-plane"></i></button>
                     </form>
                 </div>
             </div>
