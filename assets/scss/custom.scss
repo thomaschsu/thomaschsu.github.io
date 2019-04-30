@@ -75,6 +75,12 @@ body {
     }
 }
 
+.scrollspy-resume {
+    position: relative;
+    overflow-y: scroll;
+    height: 500px;
+}
+
 .navbar.scroll {
     background-color: #90CAF9;
     transition: background 550ms;
