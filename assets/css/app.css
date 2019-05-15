@@ -7655,4 +7655,7 @@ body {
 .text-shadow {
   text-shadow: 1px 1px rgba(0, 0, 0, 0.25); }
 
+.hr-enlarge {
+  border-top: 2px solid rgba(0, 0, 0, 0.1); }
+
 /*# sourceMappingURL=app.css.map */
