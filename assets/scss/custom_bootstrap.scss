@@ -7,9 +7,16 @@ $theme-colors: ("primary": #3498db,
 "info": #2ecc71);
 
 .card {
+    &:hover {
+        -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.19);
+        box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.19);
+    }
+
     & .card-header {
         padding: 5px 10px;
-        & :hover, :focus {
+
+        & :hover,
+        :focus {
             text-decoration: none;
         }
     }
