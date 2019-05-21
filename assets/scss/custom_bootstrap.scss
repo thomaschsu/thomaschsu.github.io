@@ -6,5 +6,14 @@ $theme-colors: ("primary": #3498db,
 "warning": #f1c40f,
 "info": #2ecc71);
 
+.card {
+    & .card-header {
+        padding: 5px 10px;
+        & :hover, :focus {
+            text-decoration: none;
+        }
+    }
+}
+
 // Import Bootstrap
 @import "../../node_modules/bootstrap/scss/bootstrap";
