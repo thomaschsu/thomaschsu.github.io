@@ -112,3 +112,27 @@ body {
     -webkit-box-shadow: inset 0 0 1px rgba(73, 80, 87, 1);
     background-color: #d9dcdd;
 }
+
+// Tooltip css
+.tooltip-inner {
+    background-color: #1abc9c;
+    padding: 5px 15px;
+    -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.tooltip.bs-tooltip-right .arrow:before {
+    border-right-color: #1abc9c;
+}
+
+.tooltip.bs-tooltip-left .arrow:before {
+    border-left-color: #1abc9c;
+}
+
+.tooltip.bs-tooltip-bottom .arrow:before {
+    border-bottom-color: #1abc9c;
+}
+
+.tooltip.bs-tooltip-top .arrow:before {
+    border-top-color: #1abc9c;
+}
