@@ -38,3 +38,11 @@ document.addEventListener('keypress', function (event) {
         submit.click();
     }
 });
+
+// Year for copyright
+let now = new Date();
+let month = now.getFullYear();
+
+// Replaces id with year
+let copyrightyear = document.getElementById('copyrightyear');
+copyrightyear.textContent = month;
