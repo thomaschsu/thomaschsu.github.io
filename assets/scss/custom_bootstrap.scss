@@ -6,22 +6,5 @@ $theme-colors: ("primary": #3498db,
 "warning": #f1c40f,
 "info": #2ecc71);
 
-.card {
-    &:hover {
-        -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.19);
-        box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.19);
-        transition: all .75s;
-    }
-
-    & .card-header {
-        padding: 5px 10px;
-
-        & :hover,
-        :focus {
-            text-decoration: none;
-        }
-    }
-}
-
 // Import Bootstrap
 @import "../../node_modules/bootstrap/scss/bootstrap";

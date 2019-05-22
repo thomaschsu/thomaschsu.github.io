@@ -136,3 +136,26 @@ body {
 .tooltip.bs-tooltip-top .arrow:before {
     border-top-color: #1abc9c;
 }
+
+// Cards for portfolio page
+.card {
+    &:hover {
+        -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.19);
+        box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.19);
+        transition: all .75s;
+    }
+
+    & .card-header {
+        padding: 5px 10px;
+
+        & :hover,
+        :focus {
+            text-decoration: none;
+        }
+    }
+}
+
+// Added width to border
+.border-right {
+    border-width: 2px !important;
+}
