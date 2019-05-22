@@ -51,17 +51,19 @@ copyrightyear.textContent = month;
 const bug = document.querySelector('#bug');
 const laptop = document.querySelector('#laptop');
 const lang = document.querySelector('#lang');
+const plane = document.querySelector('.fa-paper-plane');
+const smile = document.querySelector('.fa-smile');
+const envelope = document.querySelector('.fa-envelope');
 
-bug.addEventListener('mouseover', makeIconMove);
-laptop.addEventListener('mouseover', makeIconMove);
-lang.addEventListener('mouseover', makeIconMove);
+let elemArray = [bug, laptop, lang, plane, smile, envelope];
 
-bug.addEventListener('mouseout', makeIconStop);
-laptop.addEventListener('mouseout', makeIconStop);
-lang.addEventListener('mouseout', makeIconStop);
+elemArray.forEach(function(elem){
+    elem.addEventListener('mouseover', makeIconRubberBand);
+    elem.addEventListener('mouseout', makeIconStop);
+})
 
-function makeIconMove(){
-    this.classList.add('animated', 'swing', 'infinite');
+function makeIconRubberBand(){
+    this.classList.add('animated', 'rubberBand', 'infinite');
 }
 
 function makeIconStop(){
