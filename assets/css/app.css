@@ -7612,7 +7612,7 @@ body {
     font-weight: 400;
     color: #FFF; }
     #navbar .nav-link:hover {
-      color: #27aaf9;
+      color: #1abc9c;
       transition-delay: 0.075s; }
   #navbar .navbar-toggler {
     border: none;
@@ -7660,7 +7660,7 @@ body {
   height: 500px; }
 
 .navbar.scroll {
-  background-color: #3498db;
+  background-color: #2c3e50;
   transition: background 550ms; }
 
 .text-shadow {
