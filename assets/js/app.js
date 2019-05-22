@@ -22,3 +22,19 @@ $('#exampleModal').on('show.bs.modal', function (event) {
 })
 
 AOS.init();
+
+// Enter key submits form function
+document.addEventListener('keypress', function (event) {
+    const submit = document.querySelector('#submit');
+    const submit2 = document.querySelector('#submit2');
+    const contactTextArea = document.querySelector('#contactTextArea');
+    const textArea = document.querySelector('textArea');
+    
+    // If text area is not empty and enter key is pressed submit form
+    if (contactTextArea !== '' && event.keyCode === 13) {
+        // Prevent default action
+        event.preventDefault();
+        // Submits on click
+        submit.click();
+    }
+});
