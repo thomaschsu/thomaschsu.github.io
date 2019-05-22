@@ -46,3 +46,24 @@ let month = now.getFullYear();
 // Replaces id with year
 let copyrightyear = document.getElementById('copyrightyear');
 copyrightyear.textContent = month;
+
+// Icon movements
+const bug = document.querySelector('#bug');
+const laptop = document.querySelector('#laptop');
+const lang = document.querySelector('#lang');
+
+bug.addEventListener('mouseover', makeIconMove);
+laptop.addEventListener('mouseover', makeIconMove);
+lang.addEventListener('mouseover', makeIconMove);
+
+bug.addEventListener('mouseout', makeIconStop);
+laptop.addEventListener('mouseout', makeIconStop);
+lang.addEventListener('mouseout', makeIconStop);
+
+function makeIconMove(){
+    this.classList.add('animated', 'swing', 'infinite');
+}
+
+function makeIconStop(){
+    this.classList.remove('animated', 'swing', 'infinite');
+}
