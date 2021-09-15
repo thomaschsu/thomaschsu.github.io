@@ -54,8 +54,11 @@ const lang = document.querySelector('#lang');
 const plane = document.querySelector('.fa-paper-plane');
 const smile = document.querySelector('.fa-smile');
 const envelope = document.querySelector('.fa-envelope');
+const home = document.querySelector('.fa-home');
+const list = document.querySelector('.fa-list-alt');
+const file = document.querySelector('.fa-file');
 
-let elemArray = [bug, laptop, lang, plane, smile, envelope];
+let elemArray = [bug, laptop, lang, plane, smile, envelope, home, list, file];
 
 elemArray.forEach(function(elem){
     elem.addEventListener('mouseover', makeIconRubberBand);
